@@ -1,0 +1,123 @@
+/*=======================our Navbar=============================================*/
+.bg-light{
+    background-color:rgba(202, 133, 5, 0.87) !important;
+}
+.carousel-item img{
+    height: 750px !important; 
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/*========================the body of the front page===========================*/
+/* the boday of my HTML web page is stylized by pre-defined Bootstrap 4 Class because the page is responsive=====*/
+.main_page {
+    
+    background: linear-gradient(to bottom right,rgba(202, 133, 5, 0.87) , rgba(0,0,0,0));
+}
+/*==================================la vera delozia page====================*/
+.la_vera_delizia {
+    background: linear-gradient(to bottom right,rgba(202, 133, 5, 0.87) , rgba(0,0,0,0));
+}
+/*========================the footer  =====================================*/
+.index .footer {
+    margin-top: 0;
+}
+#footer {
+    background-color: rgba(202, 133, 5, 0.87) ;
+    border-top: solid 1px rgba(0, 0, 0, 0);
+    font-size: 15px;
+    line-height: 1.7em;
+    color: black;
+    padding: 30px 0;
+    padding-right: 5px ;
+    margin-top: 2em;
+}
+
+ h4 {
+    font-weight: bold;
+}
+ a {
+    color: black;
+}
+.credits {
+    text-align: center;
+    font-style: italic;
+}
+.section {
+    margin-left:auto;
+    margin-right: auto;
+}
+/*=============================the bread page=======================*/
+#bread > img {
+    width: 100%;
+}
+.my_bread {
+    background: linear-gradient(rgba(202, 133, 5, 0.87),rgba(230, 175, 75, 0.87),rgba(240, 205, 132, 0.842))
+}
+/*===============================our team page=======================*/
+.our_team{
+    background-image: url("../images/fond_decran.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+
+}
+/*==============================the pastery page=====================*/
+.my_pastery {
+    background: linear-gradient(rgba(202, 133, 5, 0.87),rgba(230, 175, 75, 0.87),rgba(240, 205, 132, 0.842))
+}
+/*=============================the dessert page =====================*/
+.my_dessert {
+    background: linear-gradient(rgba(202, 133, 5, 0.87),rgba(230, 175, 75, 0.87),rgba(240, 205, 132, 0.842))
+}
+
+/*============================the capcake page=======================*/
+.my_capcake {
+    background: linear-gradient(rgba(202, 133, 5, 0.87),rgba(230, 175, 75, 0.87),rgba(240, 205, 132, 0.842))
+}
+/*=======================================the delivery shopping Card CSS====================*/
+.my_cart_shop {
+    padding-top: 80px;
+    background: linear-gradient(rgba(202, 133, 5, 0.87),rgba(230, 175, 75, 0.87),rgba(240, 205, 132, 0.842))
+}
+.show-cart li {
+    display: flex;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
+.card-title .card-text {
+    padding-left: 10px;
+}
+.card-block {
+    background-color:rgba(212, 162, 69, 0.87)
+}
+.card-text .add-to-cart {
+    margin-left: 20 px;
+}
+/*==============================================the Recipies page==================================*/
+.my_recipies {
+    background-color:rgba(212, 162, 69, 0.87) ;
+}
+.first_video {
+    width: 100%;
+    display: flex;
+  justify-content: center;
+}
+.second_video {
+    display: flex;
+    justify-content: center;
+}
+.third_video {
+    display: flex;
+    justify-content: center; 
+}
+/* =============================
+      media query
+============================ */
+@media screen and (max-width: 480px) {
+    .card {    
+         width:100% !important;
+    }
+   }
